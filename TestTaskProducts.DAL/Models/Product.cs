@@ -13,6 +13,7 @@ namespace TestTaskProducts.DAL.Models
         /// <summary>
         /// Product name
         /// </summary>
+        [Required]
         public string Name { get; set; }
 
         /// <summary>

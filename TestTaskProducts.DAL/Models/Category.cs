@@ -14,6 +14,7 @@ namespace TestTaskProducts.DAL.Models
         /// <summary>
         /// Category name
         /// </summary>
+        [Required]
         public string Name { get; set; }
 
         /// <summary>

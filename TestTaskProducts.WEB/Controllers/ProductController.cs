@@ -15,6 +15,10 @@ namespace TestTaskProducts.Controllers
             _productService = productService;
         }
 
+        /// <summary>
+        /// Get all products with categories
+        /// </summary>
+        /// <returns>List of joined tables of products and categories</returns>
         [HttpGet]
         public async Task<List<QueryModel>> GetProductsWithCat()
         {
